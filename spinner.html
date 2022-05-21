@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+            .spinner {
+    position: absolute;
+    left: 40%;
+    top: 29%;
+    height: 100px;
+    width: 100px;
+    background-color: #0b0ff5;
+    animation: flip 1s linear infinite;
+}
+.spinner2{
+    position: absolute;
+    left: 40%;
+    top: 46%;
+    height: 100px;
+    width: 100px;
+    background-color:#f00ef8;
+    animation: flip 1s linear infinite;
+}.spinner3{
+    position: absolute;
+    left: 48%;
+    top: 29%;
+    height: 100px;
+    width: 100px;
+    background-color:#f80e0e;
+    animation: flip 1s linear infinite;
+}.spinner4{
+    position: absolute;
+    left: 48%;
+    top: 46%;
+    height: 100px;
+    width: 100px;
+    background-color:#50f80e;
+    animation: flip 1s linear infinite;
+}
+
+
+
+            @keyframes flip {
+            50%{
+                transform:rotate(180deg);
+            }
+            100%{
+                transform:rotatex(180deg) rotatey(180deg);
+            }
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="spinner"> </div>
+    <div class="spinner2"> </div>
+    <div class="spinner3"></div>
+    <div class="spinner4"></div>
+</body>
+</html>
